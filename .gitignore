@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+uploads/
+summaries/
+manifest.json
+embeddings.json

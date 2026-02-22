@@ -1,0 +1,16 @@
+llm:
+  base_url: http://localhost:11434
+  model: llama3.2:1b
+  embed_model: nomic-embed-text
+  max_tokens: 512
+  temperature: 0.3
+
+peaks:
+  prominence: 0.05
+  min_distance: 5
+
+storage:
+  upload_dir: uploads
+  summaries_dir: summaries
+  manifest_file: manifest.json
+  index_file: embeddings.json
